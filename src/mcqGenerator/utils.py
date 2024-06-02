@@ -4,7 +4,7 @@ import json
 import traceback
 
 def read_file(file):
-    if file.name.eddswith(".pdf"):
+    if file.name.endswith(".pdf"):
         try:
             pdf_reader = PyPDF2.PdfFileReader(file)
             text = ""
