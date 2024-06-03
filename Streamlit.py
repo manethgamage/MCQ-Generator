@@ -7,7 +7,7 @@ import streamlit as st
 from src.mcqGenerator.MCQGenerator import generate_evaluate_chain
 from src.mcqGenerator.logger import logging
 
-with open('C:\\Users\\asus\\mcq\\MCQ-Generator\\Response.json','r') as file:
+with open('Response.json','r') as file:
     RESPONSE_JSON = json.load(file)
     
 #creating a title for the app
