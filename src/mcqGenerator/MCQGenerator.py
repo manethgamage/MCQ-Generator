@@ -11,7 +11,7 @@ from langchain.chains import SequentialChain
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-llm = ChatGoogleGenerativeAI(google_api_key="AIzaSyCMOSfEQv4qpq21bIe9RGOYctSYYQfMp8Q",model="gemini-pro", temperature=0.5)
+llm = ChatGoogleGenerativeAI(google_api_key="your google gemini api",model="gemini-pro", temperature=0.5)
 
 TEMPLATE="""
 Text:{text}
